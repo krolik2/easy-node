@@ -1,0 +1,38 @@
+[
+  {
+    "node_id": 16242857031,
+    "path": "nl-amazon-instant-video:",
+    "node_name": "Prime Video",
+    "is_leaf": false
+  },
+  {
+    "node_id": 21305337031,
+    "path": "nl-arts-and-crafts:",
+    "node_name": "Arts & Crafts",
+    "is_leaf": false
+  },
+  {
+    "node_id": 21305338031,
+    "path": "nl-arts-and-crafts:/repellendus! Veniam, perferendis! Atque ullam adipisci sed porro.",
+    "node_name": "Categories_Arts-and-Crafts",
+    "is_leaf": false
+  },
+  {
+    "node_id": 21440657031,
+    "path": "nl-arts-and-crafts:/adipisci illum molestias consequuntur sapiente",
+    "node_name": "Yarn",
+    "is_leaf": true
+  },
+  {
+    "node_id": 16496613031,
+    "path": "nl-automotive:/tempore mollitia aperiam animi provident",
+    "node_name": "Automotive Brake Gauges",
+    "is_leaf": true
+  },
+  {
+    "node_id": 16496619031,
+    "path": "nl-automotive:/eveniet libero, ullam ex voluptatem officia",
+    "node_name": "Automotive Timing Lights",
+    "is_leaf": true
+  }
+]
