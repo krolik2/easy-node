@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
-const SideNavigationElement = styled.div`
+const ActiveSideNavigationElement = styled.div`
   border-bottom: 1px solid #2c3c4e;
-  border-left: 5px solid transparent;
+  border-left: 5px solid #fdbd68;
   height: 95px;
   display: flex;
   flex-direction: column;
@@ -19,20 +19,21 @@ const NodeIconWrapper = styled.span`
   align-items: center;
 `;
 
-const SideNavigationElementTitle = styled.h3`
-  color: #232f3c;
+const ActiveSideNavigationElementTitle = styled.h3`
+  color: #fff;
 `;
 
-
-const SideBarElement = ({ text, icon }) => {
+const SideBarElementActive = ({ text, icon }) => {
   return (
     <>
-      <SideNavigationElement>
+      <ActiveSideNavigationElement>
         <NodeIconWrapper>{icon}</NodeIconWrapper>
-        <SideNavigationElementTitle>{text}</SideNavigationElementTitle>
-      </SideNavigationElement>
+        <ActiveSideNavigationElementTitle>
+          {text}
+        </ActiveSideNavigationElementTitle>
+      </ActiveSideNavigationElement>
     </>
   );
 };
 
-export default SideBarElement;
+export default SideBarElementActive;

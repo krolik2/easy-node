@@ -50,7 +50,7 @@ const StyledList = styled.ul`
 const ListItem = styled.li`
   list-style-type: none;
   color: white;
-  min-height: 135px;
+  /* min-height: 135px; */
   background-color: #2c3c4e;
   margin-bottom: 20px;
   padding: 15px;
